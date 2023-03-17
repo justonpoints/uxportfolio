@@ -1,18 +1,22 @@
 <script>
-	import Header from './components/Header.svelte';
+	import Header from '$lib/components/Header.svelte';
+	import Menu from '$lib/components/Menu.svelte';
+	import Footer from '$lib/components/Footer.svelte';
+	import Intro from '$lib/components/Intro.svelte';
+	import Card from '$lib/components/Card.svelte';
 	import './styles.css';
 </script>
 
-<div class="app">
+<div class="flex flex-col min-h-screen">
 	<Header />
-
-	<main>
-		<slot />
-	</main>
-
-	<footer>
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
-	</footer>
+	<div class="flex flex-grow mb-32 mt-20 max-2xl -z-10">
+		<main class="flex p-5 m-auto shadow bg-white">
+			<div class="flex-grow lg:pl-8 lg:pr-8">
+				<slot />
+			</div>
+		</main>
+	</div>
+	<Footer/>
 </div>
 
 <style>
