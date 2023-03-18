@@ -13,7 +13,7 @@
 </script>
 
 <header class="w-full h-18 bg-black text-white text-xl fixed top-0 flex flex-row">
-	<div class="flex-grow p-5">PORTFOLIO</div> 
+	<div class="flex-grow p-5 text-lg lg:text-2xl">Juston Points</div> 
 	<div class="hidden md:block">
 		<ul class="style-none flex flex-row flex-wrap lg:mr-16 lg:text-lg text-sm">
 			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
@@ -75,6 +75,6 @@
 	}
 
 	li a{
-		@apply block p-5;
+		@apply block py-5 px-4 lg:p-5;
 	}
 </style>

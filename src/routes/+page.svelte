@@ -15,8 +15,8 @@
 	<Intro/>
 </div>
 
-<section class="flex p-5 m-auto">
-				<div class="p2 text-center shadow-lg bg-white w-full p-5">
+<section class="flex p-1 lg:p-5 m-auto">
+				<div class="text-center shadow-lg bg-white w-full p-5">
 					<h2 class="text-2xl">The Portfolio Feed</h2>
 				</div>
 				<Card date="03/17/2023" category="education" title="UX certificate from UC San Deigo Extension Complete!">
