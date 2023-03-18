@@ -9,8 +9,8 @@
 
 <div class="flex flex-col min-h-screen">
 	<Header />
-	<div class="flex flex-grow mb-32 mt-20 max-2xl -z-10">
-		<main class="flex p-5 m-auto shadow bg-white">
+	<div class="flex flex-grow mb-32 mt-20 max-2xl">
+		<main>
 			<div class="flex-grow lg:pl-8 lg:pr-8">
 				<slot />
 			</div>
