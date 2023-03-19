@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>Test</title>
+	<title>Juston Points | Skills</title>
 	<meta name="description" content="This is a test page" />
 </svelte:head>
 

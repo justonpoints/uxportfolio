@@ -6,12 +6,12 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
+	<title>Juston Points</title>
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
 
-<div class="shadow-2xl mb-5">
+<div class="mb-5">
 	<Intro/>
 </div>
 

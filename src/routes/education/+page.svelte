@@ -1,6 +1,6 @@
 <svelte:head>
-	<title>Test</title>
-	<meta name="description" content="This is a test page" />
+	<title>Juston Points | Education</title>
+	<meta name="description" content="This is a page with Juston Points eduction histroy" />
 </svelte:head>
 
 <div class="text-column">
